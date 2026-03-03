@@ -1,7 +1,0 @@
-{
-  "content_hash": "aa8f8b9b809a8ce0f9be8dae7f81a9882a0f77ff144d63f3b7819b4b53a9eb40",
-  "model_name": "all-MiniLM-L6-v2",
-  "chunk_count": 16,
-  "embedding_dim": 384,
-  "created_at": "1758848605.3435707"
-}

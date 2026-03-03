@@ -103,8 +103,7 @@ def call_llm_with_fallback(models: List[str], messages: List[Dict], max_tokens: 
 
 
 # File paths
-# test_file_path = '/Users/maxbourke/Code/RAG/Sample data/Single-text-file-sample/Ep5 Research Brief Theresa Paste.md'
-test_file_path = '/Users/maxbourke/Code/RAG/Sample data/Single-text-file-sample/Ep5 Research Brief Theresa Paste TRUNCATED 01.md'
+test_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Sample data', 'Single-text-file-sample', 'Ep5 Research Brief Theresa Paste TRUNCATED 01.md')
 file_path = test_file_path
 
 #### Function definitions (chunking, search, RAG functions) ###

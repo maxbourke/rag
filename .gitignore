@@ -1,0 +1,23 @@
+# Runtime data
+.rag_databases/
+.rag_cache/
+.rag_config.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# Backups and planning
+BACKUPS/
+CC_plan.md
+
+# Claude Code internals
+.claude/
+
+# macOS
+.DS_Store

@@ -12,9 +12,15 @@ venv/
 .venv/
 *.egg-info/
 
-# Backups and planning
+# Internal / not for public repo
 BACKUPS/
 CC_plan.md
+CLAUDE.md
+claude_activity_log.md
+OUTPUTS/
+Sample data/
+simple_rag.py
+simple_rag_v0.py
 
 # Claude Code internals
 .claude/

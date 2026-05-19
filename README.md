@@ -1,6 +1,6 @@
 # RAG — Multi-Document Retrieval Augmented Generation
 
-A local CLI tool for building searchable knowledge bases from your documents and querying them with an LLM.
+Bare-bones local CLI tool for building searchable knowledge bases from your documents and querying them with an LLM.
 
 Supports multiple named databases, folder ingestion, content deduplication via hashing, query expansion, and source attribution. Uses [FAISS](https://github.com/facebookresearch/faiss) for vector search and any model available via [OpenRouter](https://openrouter.ai).
 
